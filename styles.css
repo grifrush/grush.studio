@@ -1390,6 +1390,25 @@ body.technical-theme .social-icon:hover svg {
     filter: drop-shadow(0 0 15px var(--color-gold));
 }
 
+/* Shop Section */
+.shop-section {
+    text-align: center;
+    padding: 6rem 5rem 10rem;
+}
+
+.shop-placeholder {
+    font-family: var(--body);
+    font-size: 1.25rem;
+    color: var(--color-charcoal);
+    font-style: italic;
+}
+
+body.technical-theme .shop-placeholder {
+    font-family: var(--mono);
+    color: var(--color-warm-white);
+    font-style: normal;
+}
+
 /* Footer */
 footer {
     background: var(--color-charcoal);
